@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Intermediate build directories (exclude raw build files)
+out/
+make/
+
+# Include final packaged files
+!pomodoro-timer-*.exe
+!pomodoro-timer-*.dmg
+!pomodoro-timer-*.AppImage
+
+# System files
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.cache
+*.lock

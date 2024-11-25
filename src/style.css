@@ -1,0 +1,73 @@
+html, body {
+    font-family: "Parkinsans";
+    background-color: #282A36;
+    margin: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-container h1 {
+    font-size: 3rem;
+    color: #BD93F9;
+    margin-bottom: 0rem;
+}
+
+.app-container img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.2rem;
+    vertical-align: middle;
+}
+.app-container p {
+    color: #FFB86C;
+}
+
+#message {
+    margin-top: 0.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.time {
+    border: 0.2rem solid #8BE9FD;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.7);
+}
+
+.time p {
+    text-align: center;
+    color: #8BE9FD;
+    padding: 2rem;
+    font-size: 3rem;
+    padding-left: 2.8rem;
+    padding-right: 3rem;
+}
+
+button {
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    padding: 0.8rem;
+    color: white;
+    background-color: #282A36;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.6);
+    border: 0.2rem solid #BD93F9;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-0.4rem);
+    cursor: pointer;
+}
