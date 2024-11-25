@@ -12,7 +12,7 @@ An image of it turned on
 # Installation
 It is currently only available on macOS but it can be easily built on other operating systems. If you can't do it yourself give me a shout I'll do it when I have the time
 <br><br>
-## Download for macOS Intel based chips
+### Download for macOS Intel based chips
 [Download for macOS Intel](dist/pomodoro-timer-1.0.0-x64.dmg)
-## Download for macOS M chips
+### Download for macOS M chips
 [Download for macOS M chip](dist/pomodoro-timer-1.0.0-arm64.dmg)
